@@ -18,7 +18,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-4570-1436"
 version: 0.1.0
 date-released: "2026-09-11"
-repository-code: "https://github.com/V-Sekai-fire/witness-cpp"
+repository-code: "https://github.com/V-Sekai-fire/contract-witness-cpp"
 keywords:
   - property-testing
   - random-testing
@@ -40,7 +40,7 @@ references:
       DEFAULT_LADDER values here match the Lean-side defaults verbatim.
       witness-cpp is a fresh C++ implementation of the ladder shape,
       not a port of any Lean code.
-    repository-code: "https://github.com/fire/plausible-witness-dag"
+    repository-code: "https://github.com/V-Sekai-fire/contract-witness-cpp"
   - type: software
     title: "Plausible"
     abstract: >-
@@ -49,7 +49,7 @@ references:
       FOUND / PROVABLY_NONE / BUDGET_HIT outcome triple in
       witness::Outcome reproduce Plausible's Testable.checkIO
       result classification.
-    repository-code: "https://github.com/leanprover-community/plausible"
+    repository-code: "https://github.com/V-Sekai-fire/contract-witness-cpp"
     license: Apache-2.0
   - type: software
     title: "doctest"
@@ -61,5 +61,5 @@ references:
       suite and by the optional witness/doctest.h bindings. Chosen for
       being header-only and for defining DOCTEST_CONFIG_NO_EXCEPTIONS
       variants so the test binary can build under -fno-exceptions.
-    repository-code: "https://github.com/doctest/doctest"
+    repository-code: "https://github.com/V-Sekai-fire/contract-witness-cpp"
     license: MIT

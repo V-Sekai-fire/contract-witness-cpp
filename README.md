@@ -1,4 +1,4 @@
-# repository-witness-cpp
+# contract-witness-cpp
 
 A header-only, exception-free property-testing library for C++17, with an optional doctest adapter.
 
@@ -19,3 +19,9 @@ The library is the headers alone; the build above compiles and runs its tests. A
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
+
+## Where it came from
+
+This repository was `V-Sekai-archive/repository-witness-cpp` and was forked back into `V-Sekai-fire` on 2026-11-14 under this name, with its history. The library, its CMake project (`witness-cpp`) and its target (`witness::witness`) keep their names, so code that vendors or links it is unaffected. The engine's source repository carries a copy under `thirdparty/witness-cpp`.
+
+C++ in this workspace is tested with it.
